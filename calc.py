@@ -101,8 +101,6 @@ def complex_num(text):
         return str(res)
     else:
         print('Неверный ввод')
-
-
 @bot.message_handler()
 def echo(msg: telebot.types.Message): 
     my_log(msg)
